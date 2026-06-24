@@ -1,0 +1,72 @@
+/* inter-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v20-latin-regular.woff2") format("woff2");
+}
+
+/* inter-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/inter-v20-latin-600.woff2") format("woff2");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+p,
+ol,
+ul,
+hr {
+  margin: 0;
+}
+
+body {
+  background-color: var(--page-background);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+:root {
+  /* Colors */
+  --blue: #4e80ee;
+  --dark-blue: #030616;
+  --light-gray: #d2d5da;
+  --lighter-gray: #f8fafc;
+  --white: #ffffff;
+
+  /* Colors Token */
+  --link-highlight: var(--blue);
+  --primary-text: var(--dark-blue);
+  --page-background: var(--white);
+  --questions-background: var(--lighter-gray);
+  --divider: var(--light-gray);
+}
+
+/* Text Presets */
+
+.text-heading-1,
+.text-heading-2 {
+  font-weight: 600;
+}
+
+.text-heading-1 {
+  font-size: 2.25rem;
+}
+
+.text-heading-2 {
+  font-size: 1.5rem;
+}
